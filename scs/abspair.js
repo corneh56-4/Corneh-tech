@@ -4,12 +4,12 @@ const { default: axios } = require('axios');
 const pkg = require('@whiskeysockets/baileys');
 const { generateWAMessageFromContent } = pkg;
 
-adams({ nomCom: "rent", reaction: "🚘", categorie: "User" }, async (dest, zk, commandeOptions) => {
+adams({ nomCom: "rent", reaction: "♻️", categorie: "User" }, async (dest, zk, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
 
   try {
     if (!arg || arg.length === 0) {
-      return repondre('Example Usage: .rent 254xxxxxxxx.');
+      return repondre('Example Usage: .rent 25471xxxxxx.');
     }
 
     await repondre('Generating your code.....');
