@@ -1,9 +1,9 @@
 
 {
-  "name":"BMW-MD",
+  "name":"CWM-TC",
   "description":"Best whatsapp bot developed by Ibrahim adams",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/0c225f7da5616cdcbec80.jpg",
+  "logo":"https://files.catbox.moe/zjudre.webp",
   "repository":"https://github.com/ekitale/maths-project",
   "succes_url":"/",
   "stack":"heroku-24",
@@ -60,7 +60,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"BMW-MD",
+      "value":"CMW-TC",
       "required":false
 
     } ,
@@ -91,7 +91,7 @@
     {
       
     "description":"Owner Number",   
-      "value":"254710772666,254739937062",
+      "value":"254716226465,254702710132",
     "required":false
       
     },
@@ -100,7 +100,7 @@
     
     "desc": "Owner name",
     "required": false,
-    "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
+    "value": "CORNEH TECH"
   },
     "SESSION_ID":{
     "description":"put your session ID , the code you received from from ibrahim adams site",   
@@ -121,7 +121,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"2",
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
