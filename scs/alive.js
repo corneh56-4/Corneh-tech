@@ -21,7 +21,7 @@ adams(
     // Pre-adjust your image dimensions before hosting for best results
     const imageUrl = "https://files.catbox.moe/va22vq.jpeg";  // Replace with your optimized image URL
 
-    const varmess = `🚘 *BWM XMD IS ACTIVE* 🚘\n\n✨ Health Status: Excellent ✨`;
+    const varmess = `🚘 *CWM TC IS ACTIVE* 🚘\n\n✨ Health Status: Excellent ✨`;
 
     try {
       // Randomly pick an audio file
@@ -77,7 +77,7 @@ adams(
     // Pre-adjust your image dimensions before hosting for best results
     const imageUrl = "https://files.catbox.moe/va22vq.jpeg";  // Replace with your optimized image URL
 
-    const varmess = `🚘 *BWM XMD IS ACTIVE* 🚘\n\n✨ Health Status: Excellent ✨`;
+    const varmess = `🚘 *CWM TC IS ACTIVE* 🚘\n\n✨ Health Status: Excellent ✨`;
 
     try {
       // Randomly pick an audio file
