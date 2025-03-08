@@ -118,8 +118,8 @@ adams({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
         await zk.sendMessage(dest, { 
             image: { url: randomImage }, 
             caption: `╭─────═━┈┈━═──━┈⊷
-┇ ʙᴏᴛ ɴᴀᴍᴇ: *ʙᴡᴍ xᴍᴅ*
-┇ ᴏᴡɴᴇʀ: ɪʙʀᴀʜɪᴍ ᴀᴅᴀᴍs
+┇ ʙᴏᴛ ɴᴀᴍᴇ: *Cᴡᴍ TC*
+┇ ᴏᴡɴᴇʀ: Corneh Tech
 ┇ ᴍᴏᴅᴇ: *${mode}*
 ┇ ᴘʀᴇғɪx: *[ ${prefixe} ]*
 ┇ ᴅᴀᴛᴇ: *${date}*
