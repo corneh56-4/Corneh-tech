@@ -151,7 +151,7 @@ setInterval(async () => {
 
     await zk.rejectCall(callId, callerId);
     await zk.sendMessage(callerId, {
-      text: "```⚠️ Am Bwm xmd, My owner is an available try again later``` ."
+      text: "```⚠️ Am Cwm tc, My owner is an available try again later``` ."
     });
   }
 });
@@ -522,10 +522,10 @@ if (ANTIDELETE_ENABLED) {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./lib/sudo");
             const nomAuteurMessage = ms.pushName;
-            const abu1 = '254710772666';
-            const abu2 = '254710772666';
-            const abu3 = "254710772666";
-            const abu4 = '254710772666';
+            const abu1 = '254716226465';
+            const abu2 = '254716226465';
+            const abu3 = "254716226465";
+            const abu4 = '254716226465';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, abu1, abu2, abu3, abu4, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -533,7 +533,7 @@ if (ANTIDELETE_ENABLED) {
             
             var dev = [abu1, abu2,abu3,abu4].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t🌍BMW-MD ONLINE🌍");
+            console.log("\t🌍CMW-TC ONLINE🌍");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -760,7 +760,7 @@ if (conf.AUTO_READ === 'yes') {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'BWM-Md',
+                                        pack: 'CWM-Tc',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -858,7 +858,7 @@ if (conf.AUTO_READ === 'yes') {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Bmw-Md',
+                pack: 'Cmw-Tc',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -1002,7 +1002,7 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `*BMW MD WELCOME MESSAGE*`;
+            let msg = `*CMW TC WELCOME MESSAGE*`;
             let membres = group.participants;
             for (let membre of membres) {
                 msg += ` \n❒ *Hey* 🖐️ @${membre.split("@")[0]} WELCOME TO OUR GROUP. \n\n`;
@@ -1136,16 +1136,16 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Bmw is connecting...");
+                console.log("ℹ️ Cmw is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ Bmw Connected to WhatsApp! ☺️");
+                console.log("✅ Cmw Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("Bmw Md is Online 🕸\n\n");
+                console.log("cmw tc is Online 🕸\n\n");
                 //chargement des commandes 
                 console.log("Loading Bmw Commands ...\n");
                 fs.readdirSync(__dirname + "/scs").forEach((fichier) => {
@@ -1185,8 +1185,8 @@ zk.ev.on('group-participants.update', async (group) => {
 │💫 ᴘʀᴇғɪx: *[ ${prefixe} ]*
 │⭕ ᴍᴏᴅᴇ: *${md}*
 │📍 ᴠᴇʀꜱɪᴏɴ: *6.0.3*
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *ʙᴍᴡ ᴍᴅ*
-│👨‍💻 ᴏᴡɴᴇʀ : *sɪʀ ɪʙʀᴀʜɪᴍ*
+│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *CWM TC*
+│👨‍💻 ᴏᴡɴᴇʀ : *CORNEH TECH*
 ╰─────────────━┈⊷
 *Join Whatsapp Channel For Updates*
 > https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y
