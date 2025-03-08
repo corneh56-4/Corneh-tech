@@ -26,7 +26,7 @@ const runtime = function (seconds) {
 // Function to fetch GitHub repo data
 const fetchGitHubStats = async () => {
     try {
-        const repo = 'Devibraah/BWM-XMD'; // Replace with your repo
+        const repo = 'CORNEH TECH/corneh56-4'; // Replace with your repo
         const response = await axios.get(`https://api.github.com/repos/${repo}`);
         const forks = response.data.forks_count;
         const stars = response.data.stargazers_count;
@@ -65,7 +65,7 @@ adams({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 
     let infoMsg = `
 ╭─────═━┈┈━═──━┈⊷
-┇ ʙᴏᴛ ɴᴀᴍᴇ: *ʙᴍᴡ ᴍᴅ*
+┇ ʙᴏᴛ ɴᴀᴍᴇ: *Cᴍᴡ TC*
 ┇ ᴍᴏᴅᴇ: *${mode}*
 ┇ ᴘʀᴇғɪx: *[ ${prefixe} ]*
 ┇ ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
@@ -78,7 +78,7 @@ adams({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 
     let menuMsg = `${readmore}  
 ╭─────═━┈┈━═──━┈⊷
-┇ ʙᴍᴡ ᴍᴅ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ
+┇ Cᴍᴡ TC ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ
 ╰─────═━┈┈━═──━┈⊷\n\n`;
 
     const sortedCategories = Object.keys(coms).sort();
@@ -92,7 +92,7 @@ adams({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 
     menuMsg += `
 ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
-©𝑰𝒃𝒓𝒂𝒉𝒊𝒎 𝑨𝒅𝒂𝒎𝒔 𝑷𝒓𝒐𝒋𝒆𝒄𝒕
+©CORNEH WAMBUA 𝑷𝒓𝒐𝒋𝒆𝒄𝒕
 ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄`;
 
     try {
@@ -102,8 +102,8 @@ adams({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
                 mentionedJid: [nomAuteurMessage],
                 externalAdReply: {
                     body: "©Ibrahim Adams",
-                    thumbnailUrl: "https://files.catbox.moe/ytix9f.jpeg",
-                    sourceUrl: 'https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y',
+                    thumbnailUrl: "https://files.catbox.moe/klxk87.webp",
+                    sourceUrl: 'https://whatsapp.com/channel/0029Vb32FIvD8SDyl6qmsA1b',
                     mediaType: 1,
                     rendersmallThumbnail: true
                 }
@@ -113,16 +113,16 @@ adams({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
         // Send audio with caption
         await zk.sendMessage(dest, { 
             audio: { 
-                url: "https://files.catbox.moe/oordg5.mp3" // Replace with your audio URL
+                url: "https://files.catbox.moe/lf6po0.mp3" // Replace with your audio URL
             }, 
             mimetype: 'audio/mp4', 
             ptt: false, // Set to true if you want it as a voice note
-            caption: "BMW MD SONG",
+            caption: "CMW TC SONG",
             contextInfo: {
                 externalAdReply: {
-                    body: "BMW SONG BY IBRAHIM",
+                    body: "CMW SONG BY CORNEH",
                     thumbnailUrl: "https://files.catbox.moe/va22vq.jpeg",
-                    sourceUrl: 'https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y',
+                    sourceUrl: 'https://whatsapp.com/channel/0029Vb32FIvD8SDyl6qmsA1b',
                     rendersmallThumbnail: false
                 }
             }
