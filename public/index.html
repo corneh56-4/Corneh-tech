@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bwm XMD Bot Panel</title>
+</head>
+<body>
+    <h1>Bwm XMD Bot Control Panel</h1>
+    <button onclick="controlBot('start')">Start Bot</button>
+    <button onclick="controlBot('stop')">Stop Bot</button>
+    <button onclick="controlBot('restart')">Restart Bot</button>
+    <button onclick="checkStatus()">Check Status</button>
+    <button onclick="viewLogs()">View Logs</button>
+
+    <div id="output"></div>
+
+    <script>
+        function controlBot(action) {
+            fetch(`/${action}`)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('output').innerText = data;
+                });
+        }
+
+        function checkStatus() {
+            fetch('/status')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('output').innerText = data;
+                });
+        }
+
+        function viewLogs() {
+            fetch('/logs')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('output').innerHTML = data;
+                });
+        }
+    </script>
+</body>
+</html>
