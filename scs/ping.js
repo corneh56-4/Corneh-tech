@@ -38,7 +38,7 @@ adams({
     nomCom: 'ping',
     desc: 'To check ping',
     Categorie: 'General',
-    reaction: '🚘', 
+    reaction: '🎁', 
     fromMe: 'true',
   },
   async (dest, zk, commandeOptions) => {
@@ -63,7 +63,7 @@ adams({
   },
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
-    await repondre(`*Bmw speed is: ${runtime(process.uptime())}_*`);
+    await repondre(`*Cmw speed is: ${runtime(process.uptime())}_*`);
   }
 );
 
@@ -82,7 +82,7 @@ adams({
     const linkk = arg.join(' ');
     let linkkk = `https://api.maher-zubair.tech/misc/sstab?url=${linkk}&dimension=720x720`;
     let res = await getBuffer(linkkk);
-    let caption = '*BWM XMD*'; 
+    let caption = '*CWM TC*'; 
     await zk.sendMessage(dest, { image: res }, { caption: caption }, { quoted: ms });
   }
 );
