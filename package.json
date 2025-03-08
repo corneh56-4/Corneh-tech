@@ -1,5 +1,5 @@
 {
-  "name": "Bwm-xmd",
+  "name": "Cwm-tc",
   "version": "2.0.0",
   "description": "",
   "main": "body.js",
@@ -15,13 +15,13 @@
   "keywords": [
     "bot",
     "Baileys",
-    "bmw",
+    "cwm",
     "whatsapp",
     "whatsapp-bot",
-    "Ibrahim-Adams"
+    "Corneh-Tech"
   ],
-  "author": "Ibrahim Adams",
-  "license": "ISC",
+  "author": "Corneh Tech",
+  "license": "MIT",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^10.0.1",
