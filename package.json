@@ -1,5 +1,5 @@
 {
-  "name": "BMW-MD",
+  "name": "CWM-TC",
   "version": "2.0.0",
   "description": "",
   "main": "body.js",
@@ -11,12 +11,12 @@
   "keywords": [
     "bot",
     "Baileys",
-    "bmw",
+    "cmw",
     "whatsapp",
     "whatsapp-bot",
-    "Ibrahim-Adams"
+    "corneh-tech"
   ],
-  "author": "Ibrahim Adams",
+  "author": "Corneh Tech",
   "license": "ISC",
   "engines": {
     "node": "18.x",
